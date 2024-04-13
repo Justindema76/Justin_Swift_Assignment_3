@@ -13,7 +13,7 @@
 - year
 - countryOfOrigin
 - add an appropriate initializer
-- CruiseShip (subclass)
+## CruiseShip (subclass)
 - maxCapacity
 - oceanOfOperation
 - currentPassengerCount
