@@ -64,8 +64,8 @@ class CargoShip: Ship {
             print("Sorry the \(name) is at max Capacity")
         }
     }
-    // add a method to print the current passenger count
-    // this is the method to print the current passenger count
+    // add a method to print the current cargo count
+    // this is the method to print the current cargo count
     func printCargoCount() {
         print("Current cargo count: \(currentCargoCount) pounds on the \(name)")
         
