@@ -103,13 +103,14 @@ class PirateShip: Ship{
 
 //Printing the methods  on Cruiseship
 let cruiseShip = CruiseShip(name: "Disney Cruise Lines", year: 2024, countryOfOrigin: "USA", maxCapacity: 4000, oceanOfOperation: "Atlantic & Pacific", currentPassengerCount: 1500)
-
-print("CruiseShip")
-print("Ship Name: \(cruiseShip.name)")
-print("Year: \(cruiseShip.year)")
-print("Country of Origin: \(cruiseShip.countryOfOrigin)")
-print("Max Passenger Capacity: \(cruiseShip.maxCapacity) passengers")
-print("Ocean of Operation: \(cruiseShip.oceanOfOperation)")
+print("""
+CruiseShip
+Ship Name: \(cruiseShip.name)
+Year: \(cruiseShip.year)
+Country of Origin: \(cruiseShip.countryOfOrigin)
+Max Passenger Capacity: \(cruiseShip.maxCapacity) passengers
+Ocean of Operation: \(cruiseShip.oceanOfOperation)
+""")
 cruiseShip.printPassengerCount()
 cruiseShip.addPassenger()
 cruiseShip.printPassengerCount()
@@ -120,29 +121,31 @@ print("")
 
 //Printing the methods Cargoship
 let cargoShip = CargoShip(name: "Millennium Falcon", year: 3972, countryOfOrigin: "The Planet of Corellia", maxCargoCapacity: 5000, currentCargoCount: 1577, isInternational: true)
-
-print("CargoShip")
-print("Ship Name: \(cargoShip.name)")
-print("Year: \(cargoShip.year)")
-print("Origin: \(cargoShip.countryOfOrigin)")
-print("Max Capacity: \(cargoShip.maxCargoCapacity) pounds")
-print("Internationl Travel: \(cargoShip.isInternational)")
+print("""
+CargoShip
+Ship Name: \(cargoShip.name)
+Year: \(cargoShip.year)
+Origin: \(cargoShip.countryOfOrigin)
+Max Capacity: \(cargoShip.maxCargoCapacity) pounds
+Internationl Travel: \(cargoShip.isInternational)
+""")
 cargoShip.printCargoCount()
 cargoShip.addCargo()
 cargoShip.printCargoCount()
-
 print("")
 
 //----------------
 
 //Printing the methods of Pirateship
 let pirateShip = PirateShip(name: "The BlackPearl", year: 1872, countryOfOrigin: "Unknow", maxTreasureCapacity: 1500, currentTreasureCount: 1255, numberOfCanons: 20)
-print("PirateShip")
-print("Ship Name: \(pirateShip.name)")
-print("Year: \(pirateShip.year)")
-print("Origin: \(pirateShip.countryOfOrigin)")
-print("Max Capacity: \(pirateShip.maxTreasureCapacity) pounds")
-print("Number of Canons: \(pirateShip.numberOfCanons)")
+print("""
+PirateShip
+Ship Name: \(pirateShip.name)
+Year: \(pirateShip.year)
+Origin: \(pirateShip.countryOfOrigin)
+Max Capacity: \(pirateShip.maxTreasureCapacity) pounds
+Number of Canons: \(pirateShip.numberOfCanons)
+""")
 pirateShip.printTreasureCount()
 pirateShip.addTreasure()
 pirateShip.printTreasureCount()
